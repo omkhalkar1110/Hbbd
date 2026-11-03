@@ -208,3 +208,13 @@ function showToast(message) {
     toast.classList.remove('opacity-0');
     setTimeout(() => toast.classList.add('opacity-0'), 3000);
       }
+
+
+const surpriseMessage = document.getElementById("surpriseMessage");
+
+surpriseMessage.innerHTML = `
+  🎁 Surprise! This delivery isn't from Flipkart.
+  It's from someone who wanted to make your birthday extra special. ❤️
+`;
+
+surpriseMessage.style.display = "block";
